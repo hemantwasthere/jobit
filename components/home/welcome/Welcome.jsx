@@ -43,7 +43,6 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
 
       <View style={styles.tabsContainer}>
         <FlatList
-          showsHorizontalScrollIndicator={false}
           data={jobTypes}
           renderItem={({ item }) => (
             <TouchableOpacity
